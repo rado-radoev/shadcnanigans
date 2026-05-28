@@ -9,7 +9,15 @@ const router = createBrowserRouter([
     Component: Root,
     children: [
       { index: true, Component: Home },
-      { path: "dashboard", Component: Dashboard },
+      { 
+        path: "dashboard", 
+        loader: async () => {
+          const res = await fetch('http://localhost:3000/cards')
+          const data = await res.json()
+          return { cards: data}
+        },
+        Component: Dashboard 
+      },
       // {
       //   path: "auth",
       //   Component: AuthLayout,

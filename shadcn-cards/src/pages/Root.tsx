@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
 import { ModeToggle } from "@/components/mode-toggle"
-import Settings from "@/components/settings"
 import Account from "@/components/account"
 
 export default function Root() {
@@ -26,16 +25,13 @@ export default function Root() {
               />
               <ModeToggle />
             </div>
-            <div className="flex gap-2 px-4" >
-              <Settings />
-              <Separator
-                orientation="vertical"
-                className="mr-2 data-[orientation=vertical]:h-4"
-              />
+            <div className="flex gap-2 px-4">
               <Account />
             </div>
           </header>
+          <div className="pb-24 md:pb-0">
           <Outlet />
+          </div>
         </SidebarInset>
       </SidebarProvider>
       <BottomNav />
