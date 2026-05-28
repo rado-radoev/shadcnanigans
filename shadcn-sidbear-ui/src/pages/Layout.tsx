@@ -8,6 +8,8 @@ import {
 } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
 import { ModeToggle } from "@/components/mode-toggle"
+import Settings from "@/components/settings"
+import Account from "@/components/account"
 
 export default function Root() {
   return (
@@ -15,7 +17,7 @@ export default function Root() {
       <SidebarProvider>
         <AppSidebar className="hidden md:block" />
         <SidebarInset>
-          <header className="flex h-8 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 md:h-16">
+          <header className="flex justify-between h-8 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 md:h-16">
             <div className="flex items-center gap-2 px-4">
               <SidebarTrigger className="ml-1 hidden md:block" />
               <Separator
@@ -23,6 +25,14 @@ export default function Root() {
                 className="mr-2 data-[orientation=vertical]:h-4"
               />
               <ModeToggle />
+            </div>
+            <div className="flex gap-2 px-4" >
+              <Settings />
+              <Separator
+                orientation="vertical"
+                className="mr-2 data-[orientation=vertical]:h-4"
+              />
+              <Account />
             </div>
           </header>
           <Outlet />

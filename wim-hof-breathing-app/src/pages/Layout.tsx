@@ -24,6 +24,7 @@ export default function Root() {
               />
               <ModeToggle />
             </div>
+            <div>cog icon here</div>
           </header>
           <Outlet />
         </SidebarInset>
