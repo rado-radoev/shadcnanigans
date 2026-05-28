@@ -1,0 +1,26 @@
+import { Button } from "@/components/ui/button"
+import { Link } from "react-router"
+
+export function App() {
+  return (
+    <div className="flex min-h-svh p-6">
+      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
+        <div>
+          <p>You may now add components and start building.</p>
+          <p>We&apos;ve already added the button component for you.</p>
+          <Button asChild className="mt-2">
+            <Link to="/">Home</Link>
+          </Button>
+          <Button asChild className="mt-2">
+            <Link to="/dashboard">Dashboard</Link>
+          </Button>
+        </div>
+        <div className="font-mono text-xs text-muted-foreground">
+          (Press <kbd>d</kbd> to toggle dark mode)
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
