@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
 import { ModeToggle } from "@/components/mode-toggle"
-import Account from "@/components/account"
+// import Account from "@/components/account"
 
 export default function Root() {
   return (
@@ -25,9 +25,9 @@ export default function Root() {
               />
               <ModeToggle />
             </div>
-            <div className="flex gap-2 px-4">
+            {/* <div className="flex gap-2 px-4">
               <Account />
-            </div>
+            </div> */}
           </header>
           <div className="pb-24 md:pb-0">
           <Outlet />
