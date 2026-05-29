@@ -1,13 +1,12 @@
 "use client"
 
-import { LayoutGrid, Activity, Book, Settings } from "lucide-react"
+import { LayoutGrid, Activity, Settings } from "lucide-react"
 import { NavLink } from "react-router"
 import { cn } from "@/lib/utils"
 
 const navItems = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutGrid },
   { name: "Stats", href: "/statistics", icon: Activity },
-  { name: "Journal", href: "/journal", icon: Book },
   { name: "Settings", href: "/settings", icon: Settings },
 ]
 

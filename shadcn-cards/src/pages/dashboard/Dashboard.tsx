@@ -7,7 +7,6 @@ export default function Dashboard() {
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       <div className="grid gap-4 md:grid-cols-4">
         <CardImage cards={data.cards} />
-  
       </div>
     </div>
   )

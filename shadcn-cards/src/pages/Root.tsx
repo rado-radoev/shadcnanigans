@@ -21,7 +21,7 @@ export default function Root() {
               <SidebarTrigger className="ml-1 hidden md:block" />
               <Separator
                 orientation="vertical"
-                className="mr-2 data-[orientation=vertical]:h-4"
+                className="mr-2 data-[orientation=vertical]:h-4 hidden md:block"
               />
               <ModeToggle />
             </div>
