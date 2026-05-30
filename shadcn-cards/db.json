@@ -5,31 +5,42 @@
       "featured": "Recommended",
       "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41407-022-0859-1/MediaObjects/41407_2022_859_Fig1_HTML.jpg",
       "title": "Breathing Exercise",
-      "description": "Breathe deep. Go beyond your limits. Charge every cell in your body and take back control of your mind."
+      "description": "Breathe deep. Go beyond your limits. Charge every cell in your body and take back control of your mind.",
+      "urlTo": "/exercise/breathing"
+
     },
     {
       "featured": "Recommended",
       "url": "https://www.shutterstock.com/image-vector/braving-chill-winter-ice-bath-260nw-2411033653.jpg",
       "title": "Cold Plunge",
-      "description": "Face the cold. Feel it. Own it. This is where comfort ends and true strength begins."
+      "description": "Face the cold. Feel it. Own it. This is where comfort ends and true strength begins.",
+      "urlTo": "/exercise/coldplunge"
     },
     {
       "featured": "Recommended",
       "url": "https://thumbs.dreamstime.com/b/shower-head-illustration-water-drops-isolated-white-background-33661755.jpg",
       "title": "Cold Shower",
-      "description": "Turn it cold and don’t hesitate. Train your mind to stay calm, focused, and powerful in the face of stress."
+      "description": "Turn it cold and don’t hesitate. Train your mind to stay calm, focused, and powerful in the face of stress.",
+      "urlTo": "/exercise/coldshower"
     },
     {
       "featured": "Advanced",
       "url": "https://cdn.dribbble.com/userupload/29475742/file/still-26c9f8e358e27d096353914306706e2a.gif",
       "title": "Push up",
-      "description": "Use your breath. Tap into raw power. Go deeper, push harder, and discover strength you didn’t know you had."
+      "description": "Use your breath. Tap into raw power. Go deeper, push harder, and discover strength you didn’t know you had.",
+      "urlTo": "/exercise/pushup"
     },
     {
       "featured": "Beginner",
       "url": "https://media.istockphoto.com/id/1204463032/vector/woman-doing-plank-exercise-on-blue-mat-with-stopclock-symbol-over-her-head.jpg?s=612x612&w=0&k=20&c=gmOmI8TkKt9deB1Mh3pAAA8DWBPVc7QBIdMh9r0NAQ8=",
       "title": "Plank",
-      "description": "Hold strong. Stay steady. Embrace the burn and build unshakable focus, power, and control from within."
+      "description": "Hold strong. Stay steady. Embrace the burn and build unshakable focus, power, and control from within.",
+      "urlTo": "/exercise/plank"
     }
-  ]
+  ],
+  "user": {
+    "name": "shadcn",
+    "email": "m@example.com",
+    "avatar": "avatar.png"
+  }
 }

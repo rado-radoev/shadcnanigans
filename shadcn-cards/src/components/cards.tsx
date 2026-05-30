@@ -10,6 +10,7 @@ import {
 import { Button } from "./ui/button"
 import { useState } from "react"
 import { cn } from "@/lib/utils"
+import { Link } from "react-router"
 
 export function CardFront() {
   return (
@@ -75,6 +76,7 @@ export function CardImage({
     url: string
     title: string
     description: string
+    urlTo: string
   }[]
 }) {
   return (
@@ -98,7 +100,9 @@ export function CardImage({
               <CardDescription>{card.description}</CardDescription>
             </CardHeader>
             <CardFooter>
-               <Button className="w-full">Start</Button>
+               <Button asChild className="w-full">
+                <Link to={card.urlTo}>Start</Link>
+               </Button>
             </CardFooter>
           </Card>
       ))}

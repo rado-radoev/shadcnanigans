@@ -19,11 +19,11 @@ export default function Root() {
           <header className="flex justify-between h-8 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 md:h-16">
             <div className="flex items-center gap-2 px-4">
               <SidebarTrigger className="ml-1 hidden md:block" />
-              <Separator
+              {/* <Separator
                 orientation="vertical"
                 className="mr-2 data-[orientation=vertical]:h-4 hidden md:block"
-              />
-              <ModeToggle />
+              /> */}
+              {/* <ModeToggle /> */}
             </div>
             {/* <div className="flex gap-2 px-4">
               <Account />
